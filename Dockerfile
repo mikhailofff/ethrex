@@ -22,6 +22,7 @@ COPY crates ./crates
 COPY metrics ./metrics
 COPY cmd ./cmd
 COPY tooling ./tooling
+COPY test ./test
 COPY Cargo.* .
 COPY .cargo/ ./.cargo
 
